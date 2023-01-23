@@ -202,3 +202,8 @@ button[type='submit']{
   padding-right: 10px; /* adiciona 10px de espaço à direita do ícone */
 }
 
+@media (max-width: 700px) {
+  #contato-info a {
+    display: block;
+  }
+}
