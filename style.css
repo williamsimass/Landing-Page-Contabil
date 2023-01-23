@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+/* Zerando CSS */
+.footer {
+  
+font-family: 'Kanit', sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background:rgb(194, 230, 235);
+  color: rgb(0, 0, 0);
+}
+
+nav a{
+  font-family: 'Kanit', sans-serif;
+}
+.navbar-nav li{
+  margin-right: 30px;
+  transition: all 0.7s ease; 
+  transform: 2ms ease-in;
+}
+
+.navbar-brand{
+  margin-left: 10px;
+}
+.navbar-toggler{
+  margin-right: 10px;
+}
+.nav-item-custom:hover{
+  border-bottom: 2px solid #fff;
+}
+
+#container-image {
+  font-family: 'Kanit', sans-serif;
+  background-image: url('./image/principal.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text-overlay {
+  font-family: 'Kanit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#container-image h1{
+  font-family: 'Kanit', sans-serif;
+  padding-bottom: 40px;
+  color: rgb(255, 255, 255);
+}
+#container-image p{
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  text-shadow: black;
+}
+
+#container-image button{
+  font-family: 'Kanit', sans-serif;
+  background-color: rgb(208, 245, 250);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.2em;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+#sobre{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    border-radius: 50px; 
+    box-shadow: 2px 2px 5px rgba(208, 245, 250); 
+    margin-bottom: 100px;
+  
+}
+#titulo-portfolio {
+  font-family: 'Kanit', sans-serif;
+  order: 2;
+  margin-left: 80px;
+}
+
+#foto {
+  border-radius: 50% 50%; /* transforma a imagem em uma elipse */
+  max-width: 350px;
+  order: 1;
+}
+
+/* configuração para dispositivos mobile */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  #titulo-portfolio{
+    margin-top: 35px;
+  }
+}
+
+/* FORM*/
+#container-contato{
+  background: linear-gradient(208, 245, 250, 208, 245, 250);
+  font-family: 'Kanit', sans-serif;
+  display: flex;
+  align-items: center; /* centraliza os itens no eixo vertical */
+  justify-content: center; /* centraliza os itens no eixo horizontal */
+  width: 100%;
+  height: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px; /* adiciona bordas arredondadas */
+  box-shadow: 2px 2px 5px rgb(185, 244, 252); /* adiciona uma sombra */
+}
+h2{
+  text-align: center; /* centraliza o texto */
+  padding: 30px;
+}
+form{
+  margin: auto; /* centraliza o formulário na horizontal e vertical */
+}
+
+.form-col{
+  
+font-family: 'Kanit', sans-serif;
+  display: flex;
+  flex-direction: column; /* coloca os itens em coluna */
+  margin:auto; /* centraliza o formulário na horizontal */
+  width:100%;
+  max-width: 300px;
+  padding: 1em;
+  margin: 1em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(208, 245, 250); /* adiciona uma sombra */
+}
+label, input, textarea{
+  margin: 0.5em 0; /* adiciona espaçamento entre os elementos */
+}
+input[name='name'], input[name='email']{
+  width: 100%; /* aumenta o tamanho da caixa de input */
+}
+button[type='submit']{
+  font-family: 'Kanit', sans-serif;
+  background-color: rgb(208, 245, 250);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.2em;
+  margin-top: 20px;
+  opacity: 0.7;
+  width: 100%; /* aumenta a largura do botão */
+  height: 50px; /* aumenta a altura do botão */
+}
+#alert-box {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hidden {
+  padding: 20px;
+  display: none;
+}
+
+#contato-info{
+  font-family: 'Kanit', sans-serif;
+  text-align: center; /* centraliza o texto */
+  margin: auto; /* centraliza o container na horizontal e vertical */
+  margin-bottom: 100px;
+  padding: 20px;
+     
+}
+
+#contato-info a {
+  color: black; /* define a cor do link como preto */
+  text-decoration: none; /* remove a sublinhado padrão */
+}
+#contato-info a:active {
+  color: rgb(189, 243, 175); /* define a cor do link como vermelho quando clicado */
+}
+#contato-info a{
+  padding: 25px;
+}
+#contato-info i {
+  padding-right: 10px; /* adiciona 10px de espaço à direita do ícone */
+}
+
